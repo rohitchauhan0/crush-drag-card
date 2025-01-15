@@ -134,7 +134,7 @@ const Page = () => {
               <Image src="/paper.webp" alt="Background Image" width={100} height={100} className="w-full h-full object-cover relative" />
         <div className=" absolute top-0 flex items-center justify-center w-full h-full flex-col space-y-3">
 
-        <Image src="/muskan.jpg" alt="Background Image" width={100} height={100} className=" h-72 w-72 object-cover relative" />
+        <Image src="/muskan.JPG" alt="Background Image" width={100} height={100} className=" h-72 w-72 object-cover relative" />
         <p className=" text-xl font-semibold text-black font-serif">There is a message for you</p>
         </div>
 
