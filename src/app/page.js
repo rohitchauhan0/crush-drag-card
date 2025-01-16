@@ -59,7 +59,7 @@ const Page = () => {
     >
       {/* Box 1 */}
       <div
-        className={`absolute h-44 w-[400px] bg-red-500 shadow-md shadow-black ${
+        className={`absolute h-44 w-[400px] bg-red-500 shadow-lg shadow-black ${
           isDragging && draggingBox === "box1" ? "cursor-grabbing" : "cursor-grab"
         }`}
         onMouseDown={(e) => handleMouseDown(e, "box1")}
@@ -71,9 +71,7 @@ const Page = () => {
       >
         <Image src="/paper.webp" alt="Background Image" width={100} height={100} className="w-full h-full object-cover relative" />
         <div className=" absolute top-0 flex items-center justify-center w-full h-full flex-col space-y-3">
-
-        <h2 className=" text-4xl font-semibold text-purple-700 font-serif">Hey Muskan!</h2>
-        <p className=" text-xl font-semibold text-black font-serif">Drag the paper to move</p>
+        <p className=" text-4xl font-semibold text-black font-zeyada">Drag the paper to move</p>
         </div>
       </div>
 
@@ -92,8 +90,7 @@ const Page = () => {
               <Image src="/paper.webp" alt="Background Image" width={100} height={100} className="w-full h-full object-cover relative" />
         <div className=" absolute top-0 flex items-center justify-center w-full h-full flex-col space-y-3">
 
-        <h2 className=" text-4xl font-semibold text-purple-700 font-serif">You are awesome</h2>
-        <p className=" text-xl font-semibold text-black font-serif">Drag the paper to move</p>
+        <h2 className=" text-6xl font-bold  text-red-700 font-zeyada ">You are too cute</h2>
         </div>
 
       </div>
@@ -114,7 +111,7 @@ const Page = () => {
         <div className=" absolute top-0 flex items-center justify-center w-full h-full flex-col space-y-3">
 
         <Image src="/heart.webp" alt="Background Image" width={100} height={100} className=" h-52 w-52 object-contain relative" />
-        <p className=" text-xl font-semibold text-black font-serif">Drag the paper to move</p>
+        <p className=" text-xl font-semibold text-black font-zeyada">Drag the paper to move</p>
         </div>
 
       </div>
@@ -135,14 +132,14 @@ const Page = () => {
         <div className=" absolute top-0 flex items-center justify-center w-full h-full flex-col space-y-3">
 
         <Image src="/muskan.JPG" alt="Background Image" width={100} height={100} className=" h-72 w-72 object-cover relative" />
-        <p className=" text-xl font-semibold text-black font-serif">There is a message for you</p>
+        <p className=" text-3xl font-semibold text-black font-zeyada">There is a message for you</p>
         </div>
 
       </div>
 
 
       <div
-        className={`absolute h-[200px] w-[300px] bg-blue-500 shadow-md shadow-black ${
+        className={`absolute h-[200px] w-[500px] bg-blue-500 shadow-md shadow-black ${
           isDragging && draggingBox === "box5" ? "cursor-grabbing" : "cursor-grab"
         }`}
         onMouseDown={(e) => handleMouseDown(e, "box5")}
@@ -156,7 +153,7 @@ const Page = () => {
         <div className=" absolute top-0 flex items-center justify-center w-full h-full flex-col space-y-3">
 
        
-        <p className=" text-5xl font-semibold text-black font-serif">Boro 🤡</p>
+        <p className=" text-5xl font-semibold text-black font-zeyada">Can i get your number 🥺</p>
         </div>
 
       </div>
